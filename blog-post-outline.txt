@@ -1,0 +1,115 @@
+Atom.io set up for python
+
+
+1. Introduction
+	a. what the article is about.
+	b. subjects the article will explain.
+	c. Transition to Installing Atom
+2. Installing Atom
+    1. Mac
+        1. Process
+        2. Terminal Commands
+    2. Windows
+        1. process
+    3. Transition to Themes & Packages
+3. Themes & Packages & Customization
+    1. Themes
+        1. Syntax Theme
+            1. customize syntax highlighting
+            2. specific code syntax highlighting
+        2. UI Theme
+            1. customize settings
+            2. download prebuilt themes
+    2. Packages
+        1. Git & GitHub Integration
+            1. https://github.atom.io/
+        2. Real-time collaboration
+            1. https://teletype.atom.io/
+        3. IDE features
+            1. https://ide.atom.io/
+        4. Wakatime
+            1. Summary
+                1. What it is
+                2. Who made it
+                3. How much it costs
+            2. Benefits
+                1. Code time tracking
+                2. analytics
+                3. exportable data
+        5. Kite
+            1. Summary
+                1. What it is
+                2. Who made it
+            2. Benefits
+                1. Autocompletion
+                    1. ranked completions by popularity data
+                    2. arguments
+                2. Inline documentation
+                    1. local usages
+                    2. code snippets
+                    3. examples
+                3. HUD display for mac!
+                    1. Shows documentation
+                    2. local definitions
+                    3. privately indexed your code base
+        6. Script
+            1. Summary
+                1. What it is
+                2. Who made it
+            2. Benefits
+                1. Run code files within atom!
+            3. Give code sample
+                1. Caesar cipher or more basic code
+        7. Atom Beautify
+            1. summary
+                1. What it is
+                    1. atom package to format code in file
+                2. Who made it
+            2. Benefits
+                1. Easy to formate files or sections of code
+                    1. specific language command (command palette)
+                        1. good for jsx, html in python file, and many other use cases
+                    2. Selection based beautify
+                2.  beautify on save
+                3. easy to configure and customize
+                    1. beautify differently per language
+
+
+
+Images:
+
+1. Mac and Windows Atom Landing page side by side
+2. Python file in Atom
+3. Package images
+    1. Kite
+    2. Beautify
+    3. Wakatime
+
+
+Links:
+
+generic links
+	atom.io
+	How to set up atom:
+		https://www.youtube.com/watch?v=U5POoGSrtGg
+	https://ide.atom.io/
+	https://github.com/
+
+Adam’s Video about Kite
+	https://www.youtube.com/watch?	v=bF50YPyUKTQ
+
+Waketime -
+	https://wakatime.com/
+	https://atom.io/packages/wakatime
+
+Kite - 
+	https://kite.com
+	https://atom.io/packages/kite
+
+Script -
+	https://atom.io/packages/script
+
+Atom beautify -
+	https://atom.io/packages/atom-beautify
+
+
