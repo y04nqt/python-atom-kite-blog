@@ -113,3 +113,6 @@ Atom beautify -
 	https://atom.io/packages/atom-beautify
 
 
+Export Atom Settings StackOF -
+
+	https://stackoverflow.com/questions/30877289/how-to-share-transfer-an-atom-installation-packages-and-settings-from-one-mac
