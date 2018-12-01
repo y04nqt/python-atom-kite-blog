@@ -1,2 +1,1 @@
-c = 'City'
-print('Hello, New York!')
+print('Hello, world!')
