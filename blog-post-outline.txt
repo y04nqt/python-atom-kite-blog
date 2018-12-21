@@ -1,5 +1,8 @@
 Atom.io set up for python
 
+link to google doc:
+https://docs.google.com/document/d/1BXUmQLXaG7UwP0uvPniW00EVo2I4uBRRq_GaA_QZa0w/edit?usp=sharing
+
 
 1. Introduction
 	a. what the article is about.

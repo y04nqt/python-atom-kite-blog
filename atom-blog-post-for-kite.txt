@@ -1,55 +1,52 @@
-The 'hackable text editor for the 21st Century' describes Atom to a tee, an extremely versatile text editor. In this post, we are going to journey into learning the capabilities and functionalities Atom can provide to improve a developer's life. We'll briefly go over installing atom on windows and mac, themes and packages, customizing, and a few specific packages to help with python development. 
+The 'hackable text editor for the 21st Century' describes Atom to a tee, an extremely versatile text editor. Atom is hackable because GitHub created the editor to be completely malleable but friendly and inviting for new developers. GitHub’s primary focus is ‘building better software by working together’ and to make this happen GitHub made Atom open-source software. To support Atom’s community, they have put together great documentation which you can find in the Atom Flight Manuel. In the flight manual, you can learn how to use Atom and how to rebuild the engine! In this post, we are going to journey into learning the capabilities and functionalities Atom can provide to improve a developer's life. Let's begin by going over installing atom on windows and mac, themes and packages, customizing, and a few specific packages to help with python development.
 
-Getting started with Atom using Mac OS or Windows
 
-First, let's get Atom on our device! Let's start with Mac OS; you can download atom at ( https://atom.io/ ). The website ought to detect your device and present you with the correct download link. After clicking the download button, a ZIP file will download. Go ahead and unzip then the Atom application will become available. If you downloaded the ZIP to your Downloads directory, move the Atom Application to your Applications directory. Shazam! We now have Atom ready to rock and roll! Atom can also be called in your terminal and open the current directory.  In your project's directory type `atom .` to open the directory in Atom.
+Getting started with Atom using Mac OS
 
-[ Insert image of Mac OS download of Atom ]
-[ Insert image of Windows download of Atom ]
+First, let's get Atom on our device! Let's start with Mac OS; you can download Atom here. 
+The website ought to detect your device and present you with the correct download link. 
 
-For windows user, again we go to Atom's site (https://atom.io), and you should see the download button with your device's OS information above it.
-In case your version of windows doesn't appear, you can click 'Other Platforms' which will redirect you to the GitHub repo with all the operating systems Atom supports. After clicking the download button, the AtomSetup.exe will download then you'll run the executable and Atom will launch once installation has finished! Command prompt can also be used to open atom and your current working directory. Navigate to your project's directory and enter `atom .` to open the directory in Atom.
+After clicking the download button, a ZIP file will download. Go ahead and unzip then the Atom application will become available. If you downloaded the ZIP to your Downloads directory, move the Atom Application to your Applications directory. Shazam! We now have Atom ready to rock and roll! You can launch Atom from the application icon or you can use finder by pressing `cmd + space` and typing Atom. Atom can also be called in your terminal and open the current directory.  In your project's directory type `atom .` to open the directory in Atom.
+
+
+Getting Started with Atom using Windows
+
+For windows user, again we go to Atom's site, and you should see the download button with your device's OS information above it.
+
+In case your version of windows doesn't appear, you can click 'Other Platforms' which will redirect you to the GitHub repo with all the operating systems Atom supports. After clicking the download button, the AtomSetup.exe will download. You'll find the executable in the folder it downloaded into, typically this is the Downloads folder. Double-click to run the executable and Atom will launch once installation/preparation is completed! Command prompt can also be used to open atom and your current working directory. Navigate to your project's directory and enter `atom .` to open the directory in Atom.
+
 
 Atom Overview
 
-The design and user interface of Atom follows material design principles which provide an intuitive experience for developers of any caliber. If this design isn't quite your style, go ahead and download a different theme and hack your style into existence! The way atom allows developers to create packages and themes can make atom the text editor you've always wanted. If you feel inspired, then you too can be a contributor by creating or helping to improve a package. There are plenty of packages to help you with productivity, analytics, or making the development experience a splendid endeavor!
-
-[ Insert image of my atoms text editor ]
+The design and user interface of Atom follows material design principles which provide an intuitive experience for developers of any caliber. If this design isn't quite your style, go ahead or hack your style into existence! Atom also allows exporting of your environment, making it possible to transfer your setup across multiple computers with minimal effort. For more information on how to export your settings check out this stack overflow article. The way atom allows developers to create packages and themes can make Atom the text editor you've always wanted. If you feel inspired, then you too can be a contributor by creating or helping to improve a package. There are plenty of packages to help you with productivity, analytics, or making the development experience a splendid endeavor!
 
 The main contributors to packages in Atom are by the community or companies looking to improve the lives of developers. On Atom's landing page; it lists Teletype for real-time collaboration, Atom IDE for completing the editor experience, and Git + GitHub integration for seamless code delivery. These packages are great to get started, but if you want to go further you'll need to open Atom and navigate to Atom in the command bar and click Preferences or use the keyboard shortcut `command + ,`. Once in Preferences you can check out the packages you already have or install new packages and themes.
-
 Some of my favorite packages are WakaTime (automatic programming metrics), Beautify (code formatting), Kite (editor copilot), and the GitHub package. All of these help me develop with ease and peace of mind. Let's take a deeper dive into how these packages can also help you!
 
-WakaTime
 
-[ WakaTime image of Dashboard ]
+WakaTime
 
 WakaTime is a great package to use if you want to quantify your programming time and efforts. WakaTime will track every second you are typing in Atom and produces reports on your account's dashboard. WakaTime doesn't necessarily represent your total time working, but will show the full time you've spent typing code. Time spent typing is a useful metric to show how accurate you are and can quantify where you need improvement. It is smart enough to break down the time spent by language, project, file, branch, commit, OS, editor, and feature. All of this is to help you improve your productivity but also understand how you develop software. The best thing about WakaTime is the price to use it is free! There are paid options for greater details, and increased date ranges for metrics. You can pay for yourself exclusively, or you can offer your team to be part of a paid plan! With all of this typing we do, how do we ensure it all looks good?
 
 Beautify
+Beautify for Atom is a beautiful package to make your code look amazing! It is noninvasive and completely customizable.  Whether you prefer two or four space indentation, indentation with tabs, or preserving newlines there are a plethora of options to pick from when setting up the configuration of Beautify. You go the simple configuration route which will be a broad configuration across all languages or nested configuration to specify languages' desired 
+formatting. You have options when Beautify will do its job too! You can format a selection of code, a file upon saving, or the entire file on command. Beyond neatly arranging your code, another package can help you along the way with ranked completions.
 
-[ Image of Beautify (Before & After) ]
-
-Beautify for Atom is a beautiful package to make your code look amazing! It is noninvasive and completely customizable.  Whether you prefer two or four space indentation, indentation with tabs, or preserving new lines there are a plethora of options to pick from when setting up the configuration of Beautify. You go the simple configuration route which will be a broad configuration across all languages or nested configuration to specify languages' desired formatting. You have options when Beautify will do its job too! You can format a selection of code, a file upon saving, or the entire file on command. Beyond neatly arranging your code, another package can help you along the way with ranked completions.
 
 Kite
 
-[ Include Adam's YouTube Link and Image of Kite in Atom with snippet window open ]
+Kite with Atom will give ranked completions using machine learning to scan all the code on the web to provide you with the popular completions.  Popular patterns paired with inline documentation and a plethora of code examples saves time by preventing switching between searching the internet and coding. Not to mention, this will also get your stats up for Wakatime! Having so much documentation in Atom supercharges the experience of programming. Populated code snippets without needing to search stack overflow or forums will save the average developer so much time. Preventing context switches enables us to keep the focus on the main objectives. How can it get better? Why not pair Kite with a way to execute a python script inside Atom too?
 
-Kite with atom will give ranked completions using machine learning to scan all the code on the web to provide you with the popular completions. Popular patterns paired with inline documentation and a plethora of code examples saves time by preventing switching between searching the internet and coding. Not to mention, this will also get your stats up for Wakatime! Having so much documentation in Atom supercharges the experience of programming. Populated code snippets without needing to search stack overflow or forums will save the average developer so much time. Preventing context switches enables us to keep the focus on the main objectives. How can it get better? Why not pair Kite with a way to execute a python script inside Atom too?
 
 GitHub & Git
 
-[ Show image example of conflict highlighting ]
+The Git & GitHub package makes your git experience go through the roof into space! This package in Atom makes Git a dream to work with and use daily. Of course, there are plenty of other GUIs that are great for Git source control management. However, being able to jump to each file then to each conflict and knowing how many conflicts there are gives you peace of mind because it color coordinates what is new versus old. The colorful visual indication is especially helpful when you need to resolve conflicts that were not developed by you. Besides conflict resolution, it will also highlight files and directories with new changes. These visual indications quickly enable you to see where you've been and quickly navigate between them. Before making changes, wouldn't it be helpful to test the changes in an isolated file? Let's jump into another package that provides a console to test code within Atom.
 
-The Git & GitHub package makes your git experience go through the roof into space! This package in Atom makes Git a dream to work with and use daily. Of course, there are plenty of other GUIs that are great for Git source control management. However, being able to jump to each file then to each conflict and knowing how many conflicts there are gives you peace of mind because it color coordinates what is new versus old. The colorful visual indication is especially helpful when you need to resolve conflicts that were not developed by you. 
 
-Script (Bonus!) [This needs a concluding sentence for transition]
+Script (Bonus!)
 
-[ Show image of Script running simple python script ]
+Script is a neat package that allows you to bring up a console that will interpret many languages as well as Python. I find this particularly useful when testing mock data in proof-of-concept algorithms or processes. Script is also great for testing framework features to see the performance and debug issues before implementation in the main codebase. Script is essentially like having JSFiddle or the python interpreter ready at a moments notice without needing to go to the web. Script is ideal to keep you in the editor and maintain focus, thus increasing your productivity once again!
 
-Script is a neat package that allows you to bring up a console that will interpret many languages as well as Python. I find this particularly useful when testing mock data in proof-of-concept algorithms or processes. Script is also great for testing framework features to see the performance and debug issues before implementation in the main codebase. Script is essentially like having JSFiddle or the python interpreter ready at a moments notice without needing to go to the web. 
 
 In conclusion
-
-Now that you know how mighty Atom can be with the installation of a few packages and customizing it your liking, you're ready to rock and roll! The versatility Atom provides genuinely enables you to become the most productive in the way that suits you. Everyone and their dog talks about being productive, but no one offers real-world tools to do so, but Atom is that and much more. It only takes you to make it exactly what you need to give your programming abilities an infusion of adamantium (or atomantium..!) Remember to explore the tools at your disposal and use them to your advantage to provide you with that cutting edge that is so desirable. Happy coding and cheers to all of our future endeavors!
+Now that you know how mighty Atom can be with the installation of a few packages and customizing it to your liking, you're ready to rock and roll! The versatility Atom provides genuinely enables you to become the most productive in the way that suits you. Everyone and their dog talks about being productive, but very few experts offer real-world tools to do so, but Atom is that and much more. It only takes you to make it exactly what you need to give your programming abilities an infusion of adamantium (or atomantium..!) Remember to explore the tools at your disposal and use them to your advantage to provide you with that cutting edge that is so desirable. Happy coding and cheers to all of our future endeavors!
